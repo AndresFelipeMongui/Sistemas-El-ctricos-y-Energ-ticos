@@ -3,14 +3,17 @@ package View;
 import java.util.List;
 
 import Controller.AlgoritmoPrimControlador;
+import Controller.CargarDatos;
 import Controller.FlujoMaximoControlador;
 import Model.Arista;
 import Model.Grafo;
 import Model.Nodo;
+import Util.FileManagement;
 
 public class Main {
 
     static FlujoMaximoControlador f;
+    
 
     public static void main(String[] args) {
         // Crear nodos
@@ -60,6 +63,15 @@ public class Main {
         for (Arista arista : mst) {
             System.out.println(arista);
         }
+
+
+        Grafo grafoCarga=new Grafo();
+        CargarDatos carga=new CargarDatos(grafoCarga);
+String nodos="src\\Persistence\\Nodos.json";
+String aristas="src\\Persistence\\Aristas.json";
+
+        carga.cargarDatosDesdeJson(nodos, aristas);
+
     }
 
 }

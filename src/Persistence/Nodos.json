@@ -1,0 +1,21 @@
+{
+    "nodos":[
+        
+        {
+        "id": "Nodo1",
+      "tipo": "GENERADOR",
+      "capacidadMaxima": 100.0
+    },
+    {
+        "id": "Nodo2",
+      "tipo": "TRANSFORMADOR",
+      "capacidadMaxima": 100.0
+    },
+    {
+        "id": "Nodo3",
+        "tipo": "TRANSFORMADOR",
+        "capacidadMaxima": 100.0
+    }
+
+]
+}

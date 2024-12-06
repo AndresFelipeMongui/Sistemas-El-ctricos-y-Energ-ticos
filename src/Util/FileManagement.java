@@ -63,7 +63,7 @@ public class FileManagement {
             }
             br.close();
         }catch (FileNotFoundException e)    {
-            System.out.println("No encontrado"+ e.getMessage());
+            System.out.println("No ha sido encontrado"+ e.getMessage());
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
@@ -78,6 +78,8 @@ public class FileManagement {
             System.out.println("sin acceso: archivo no encontrado");
         }
     }
+
+
 
 
 

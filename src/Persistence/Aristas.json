@@ -1,0 +1,14 @@
+{
+    "aristas": [
+    {
+      "nodoInicio": "Nodo1",
+      "nodoFin": "Nodo2",
+      "capacidad": 50.0
+    },
+    {
+        "nodoInicio": "Nodo2",
+      "nodoFin": "Nodo3",
+      "capacidad": 50.0
+    }
+  ]
+}

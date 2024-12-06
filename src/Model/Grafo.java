@@ -120,12 +120,12 @@ public class Grafo {
 
     public void setNodos(ArrayList<Nodo> nodos) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setNodos'");
+       
     }
 
     public void setAristas(ArrayList<Arista> aristas) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setAristas'");
+       
     }
 }
 
